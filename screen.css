@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 800px){
+    #main{
+        float: left;
+        width: 100%;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+    }
+    .menu ul li{
+        width: 50%;
+    }
+    .menu ul li a{
+        color: white;
+        background: #700;
+    }
+    .menu ul li a:hover{
+        background: #900;
+    }
+}

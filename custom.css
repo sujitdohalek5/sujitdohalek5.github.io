@@ -1,0 +1,308 @@
+*{
+    font-family: calibri;
+}
+body{
+    margin: 0;
+    font-size: 15px;
+    background: #310060;
+    color: #FFF;
+}
+.copyright{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+#main{
+    float: left;
+    width: 100%;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: 2s;
+}
+.menu ul li{
+    width: 25%;
+}
+.menu ul li a{
+    color: white;
+    background: #500;
+}
+.menu ul li a:hover{
+    background: rgb(0, 182, 249);
+}
+
+
+
+
+.container{
+    margin-top: 65px; 
+    width: 1200px;
+}
+.header .imgdiv{
+    margin: auto 0;
+}
+.header .imgdiv .img{
+    padding: 20px 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.header .h1{
+    padding: 20px;
+    font-size: 4em;
+    margin: 0;
+}
+.header #typed{
+    height: 24px;
+}
+
+
+
+
+
+
+
+.lower .md-4 .tab{
+    position: relative;
+    margin: 10px auto;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+}
+.lower .md-4 .tab img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.lower .md-4 .tab .details{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: rgb(0, 182, 249);
+    transition: 0.5s;
+    transform-origin: bottom;
+    transform: translateY(-100px)rotateX(90deg);
+
+}
+.lower .md-4 .tab:hover .details{
+    transform: translateY(0)rotateX(0deg);
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 10px #FFF;
+    cursor: pointer;
+}
+.lower .md-4 .tab .details h3 {
+    padding: 60px 0;
+    font-size: 1.5em;
+    color: white;
+    font-family:cursive;
+}
+
+
+
+/* INSTA */
+#insta .md-2 .mar-md-11:hover{
+    box-shadow: 0 0 20px #FFF;
+}
+/* INSTA OVER */
+
+
+
+/* Logo & Header */
+
+.upper .imgdiv{
+    margin: auto 0;
+}
+.upper .imgdiv img{
+    padding: 20px 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.upper #typed{
+    height: 24px;
+}
+
+
+
+
+
+
+/* CONTACT_CONTENT */
+#cdiv{
+    float: left;
+    margin: 10px 20%;
+    width: 60%;
+    padding: 10px 0;
+    background-color: rgba(0, 182, 249);
+    border: 1px solid blue;
+    /*box-shadow: 0 0 25px #fff;*/
+}
+#cdiv  h2{
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+#cdiv .outerpbar{
+    float: left;
+    padding: 20px 0;
+    margin: 10px auto;
+    width: 100%;
+    background-color: rgba(0,0,0,.15);
+    box-shadow: inset 0 0 25px blue;
+}
+#cdiv .outerpbar .iput{
+    float: left;
+    padding: 20px 5% 0 5%;
+    margin: 0 10% 0 20%;
+    width: 60%;
+    font-size: 1.5em;
+    color: #FFF;
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid orangered;
+}
+#cdiv .outerpbar .iput::placeholder{
+    font-size: 1.5em;
+    color: #FFFA;
+}
+#cdiv .outerpbar .iput:active{
+    font-size: 1.5em;
+    color: #FFF;
+    background: #8888;
+}
+#cdiv .outerpbar textarea.iput{
+    height: 400px;
+    font-size: 1em;
+    color: #FFF;
+    font-family: calibri;
+}
+#cdiv .form-btn{
+    float: left;
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 1em;
+    color: #FFF;
+    text-align: center;
+    font-family: calibri;
+}
+#cdiv .form-btn .btn{
+    padding: 10px 20px;
+    font-size: 2em;
+    color: #FFF;
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    border: none;
+    background: orangered;
+    border-radius: 125px;
+}
+#cdiv:hover{
+    box-shadow: 0 0 20px #FFFF;
+}
+/* CONTACT_CONTENT OVER */
+
+
+
+
+
+
+
+
+
+/**/
+#contact_content .q-table tr td big a{
+    color: aqua;
+}
+/**/
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .container{
+        margin-top: 65px; 
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .container{
+        margin-top: 120px; 
+        width: 100%;
+    }
+    .menu ul li{
+        width: 50%;
+    }
+    #cdiv{
+        float: left;
+        margin: 10px 10%;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px){
+    body{
+        font-size: 1em;
+    }
+    .container{
+        margin-top: 240px; 
+        width: 100%;
+    }
+    #menu{
+        display: none;
+    }
+    #menu-btn{
+        display: block;
+        position: fixed;
+        margin: 300px 20px;
+        width: 60px;
+        background: gray;
+        padding: 2px 3px;
+        border-radius: 8px;
+    }
+    #menu-btn span{
+        float: left;
+        width: 100%;
+        margin: 2px 0;
+        height: 2px;
+        border: none;
+        border-top: 3px solid;
+        border-bottom: 5px solid;
+        border-radius: 3px;
+    }
+    .menu ul li{
+        width: 100%;
+    }
+    #cdiv{
+        float: left;
+        margin: 10px 2%;
+        width: 96%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
