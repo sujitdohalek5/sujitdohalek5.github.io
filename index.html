@@ -1,7 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Sujit Dohale</title>
+        <link rel="shortcut icon" type="image/jpg" href="img/me11.jpg"/>
+        <!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
         <link href="screen.css" rel="stylesheet" type="text/css">
         <link href="custom.css" rel="stylesheet" type="text/css">
         
@@ -63,6 +65,19 @@
                         $(this).find('.innerprogress').animate({width : j + '%'},2000);/* humor */
                     });
                 });
+                // $("#change_theme").click(function(){
+                //     var theme_name = $(this).attr('theme-name');
+                //     console.log(theme_name);
+                //     if(theme_name == 'dark'){
+                //         $("*:not(.circle-icon, .circle-icon-img,.menu ul li a, .innerprogress .form-group .iput)").css({"color":"#ddd","background":"#333","border-color":"blue"});
+                //         $(this).attr('theme-name', 'light');
+                //     }
+                //     if(theme_name == 'light'){
+                //         $("*:not(.circle-icon, .circle-icon-img,.menu ul li a, .innerprogress .form-group .iput)").css({"color":"#333","background":"rgb(204, 255, 233)","border-color":"blue"});
+                //         $(this).attr('theme-name', 'dark');
+                //     }
+                // });
+                // $("#change_theme").trigger('click');
             });
                 
                 
@@ -71,69 +86,47 @@
     <body>
         <div id="main">
             <div class="container d-center">
-                <div class="md-12" id="home_content">
+                <div class="md-12" id="home_content" style="height: 750px; background: url(img/me2.jpg); background-size: cover; background-position: top; padding: 100px 0; margin-bottom: 50px;">
                     <div class="header md-12">
                         <div class="imgdiv md-5 t-center">
-                            <img src="img/me1.jpg" class="img d-center" />
+                            <img src="img/me11.jpg" class="img d-center" />
                         </div>
                         <div class="imgdiv md-7 t-center">
                             <h1 class="h1">SUJIT DOHALE</h1>
-                            <h3 class="t-center" id="typed"> | </h3>
-                            <div class="md-12">
-                                <div class="mar-md-9">
-                                    <a href="https://www.facebook.com/sujit.dohale.7" target="_blank" class="div4">
-                                        <div class="d-center circle-icon">
-                                            <img src="svg/facebook.svg" class="circle-icon-img" style="background: white;">
-                                        </div>
-                                    </a>
-                                    <a href="https://www.instagram.com/sujitdohalek5/" target="_blank" class="div4">
-                                        <div class="d-center circle-icon">
-                                            <img src="svg/instagram.svg" class="circle-icon-img" style="width: 80%; height: 80%; padding: 10%; background: linear-gradient(225deg, #612dc4, #e7137e, #e85b21,#f0d022);">
-                                        </div>
-                                    </a>
-                                    <a href="https://twitter.com/SujitDohale" target="_blank" class="div4">
-                                        <div class="d-center circle-icon" style="background: white;">
-                                            <img src="svg/twitter.svg" class="circle-icon-img" style="margin: 15%;width: 70%;height: 70%;border-radius: 15%;">
-                                        </div>
-                                    </a>
-                                    <a href="https://github.com/sujitdohalek5" target="_blank" class="div4">
-                                        <div class="d-center circle-icon">
-                                            <img src="svg/github.svg" class="circle-icon-img" style="background: white;">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                            <h3 class="t-center" id="typed" style="margin: 0;"> || </h3>
                         </div>
                     </div>
-                    
-                    <hr class="line-hr"/>
-                    <div class="lower md-12" id="tabs">
-                        <div class="md-4">
-                            <div class="tab">
-                                <img src="img/1.png">
-                                <div class="details" id="profile">
-                                    <h3>PROFILE</h3>
-                                </div>
-                            </div>
-                        </div>              
-                        <div class="md-4">
-                            <div class="tab">
-                                <img src="img/2.png">
-                                <div class="details" id="resume">
-                                    <h3>RESUME</h3>
-                                </div>
-                            </div>
-                        </div>              
-                        <div class="md-4">
-                            <div class="tab">
-                                <img src="img/5.png">
-                                <div class="details" id="contact">
-                                    <h3>CONTACT</h3>
-                                </div>
+                    <div class="md-12">
+                        <div class="md-12">
+                            <div class="mar-md-4">
+                                <a href="https://www.facebook.com/sujit.dohale.7" target="_blank" class="div4">
+                                    <div class="d-center circle-icon" style="background: white;">
+                                        <img src="svg/facebook.svg" class="circle-icon-img" style="background: white;">
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/sujitdohalek5/" target="_blank" class="div4">
+                                    <div class="d-center circle-icon" style="background: white;">
+                                        <img src="svg/instagram.svg" class="circle-icon-img" style="background: linear-gradient(225deg, #612dc4, #e7137e, #e85b21,#f0d022);">
+                                    </div>
+                                </a>
+                                <a href="https://twitter.com/SujitDohale" target="_blank" class="div4">
+                                    <div class="d-center circle-icon" style="background: white;">
+                                        <img src="svg/twitter.svg" class="circle-icon-img" style="margin: 15%;width: 70%;height: 70%;border-radius: 15%;">
+                                    </div>
+                                </a>
+                                <a href="https://github.com/sujitdohalek5" target="_blank" class="div4">
+                                    <div class="d-center circle-icon" style="background: white;">
+                                        <img src="svg/github.svg" class="circle-icon-img" style="background: white;">
+                                    </div>
+                                </a>
                             </div>
                         </div>
+                        <div class="md-12 t-center">
+                            <h3 class="null">sujitdohalek5@gmail.com</h3>
+                        </div>
                     </div>
-                    <hr class="line-hr" />
+
+                    <!-- <hr class="line-hr" />
                     <div class="md-12 t-center">
                         <div class="md-3">
                                 <h3 class="null">+91 776-802-6045</h3>
@@ -147,18 +140,17 @@
                         <div class="md-3">
                             <span class="copyright">Copyright © 2019 All right reserved</span>
                         </div>
-                    </div>
-                    <hr class="double-hr"/>
+                    </div> -->
                 </div>
             </div>
             
             <div class="container d-center"> 
-                <div class="md-12" id="profile_content">
+                <div class="md-12" id="profile_content" style="background: #333;">
                     <div class="upper md-12">
 
                         <div class="mar-md-5">
                             <div class="imgdiv md-5 t-center">
-                                <img src="img/me1.jpg" class="d-center" />
+                                <img src="img/me11.jpg" class="d-center" />
                             </div>
 
                             <div class="imgdiv md-7 t-center">
@@ -169,15 +161,13 @@
                     </div>
                     <hr class="line-hr" />
                     <div class="md-12">
-                        <div class="md-7">
+                        <div class="md-12">
                             <h1 style="margin: 26px 20px;">Hello, I am web designer</h1>
                             <p style="text-align: justify; margin: 20px 20px">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                I am a passionate developer working in a product based company. I love to learn new technologies, so i also consider programming as one of my hobby. My responsibilities includes coding, testing, developing websites and i enjoy this job while solving real time business problems by making projects and delivering them while keeping quality of products in mind. 
                             </p>
                         </div>
-                        <div class="md-5">
+                        <div class="md-5" style="display: none;">
                             <div class="mar-md-10">
                                 <table class="q-table md-12">
                                     <tr>
@@ -212,7 +202,7 @@
                                 <div class="tab">
                                     <img src="img/3.png">
                                     <div class="details" id="profile">
-                                        <h3>Application</h3>
+                                        <h3 style="padding: 50px 0;">Application</h3>
                                     </div>
                                 </div>
                             </div>              
@@ -220,7 +210,7 @@
                                 <div class="tab">
                                     <img src="img/2.png">
                                     <div class="details" id="resume">
-                                        <h3>web<br>Application</h3>
+                                        <h3 style="padding: 33px 0;">web<br>Application</h3>
                                     </div>
                                 </div>
                             </div>              
@@ -228,7 +218,7 @@
                                 <div class="tab">
                                     <img src="img/4.png">
                                     <div class="details" id="contact">
-                                        <h3>web<br>Design</h3>
+                                        <h3 style="padding: 33px 0;">web<br>Design</h3>
                                     </div>
                                 </div>
                             </div>
@@ -269,12 +259,12 @@
             </div>
             
             <div class="container d-center">
-                <div class="md-12" id="resume_content">
+                <div class="md-12" id="resume_content" style="background: #333;">
                     <div class="upper md-12">
 
                         <div class="mar-md-5">
                             <div class="imgdiv md-5 t-center">
-                                <img src="img/me1.jpg" class="d-center" />
+                                <img src="img/me11.jpg" class="d-center" />
                             </div>
 
                             <div class="imgdiv md-7 t-center">
@@ -289,7 +279,7 @@
                         <div class="md-6">
                             <table class="null mar-md-10 left q-table">
                                 <tr>
-                                    <th colspan="2" class="table-header">EDUCATION</th>
+                                    <th colspan="2" style="width: 90%;" class="table-header">B.Sc.I.T.</th>
                                 </tr>
                                 <tr>
                                     <th>Degree</th>
@@ -303,16 +293,16 @@
                                     <th>Passing Year</th>
                                     <td>2019</td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <th>Grade</th>
                                     <td>B</td>
-                                </tr>
+                                </tr> -->
                             </table>
                         </div>
                         <div class="md-6">
                             <table class="null mar-md-10 left q-table">
                                 <tr>
-                                    <th colspan="2" class="table-header">EDUCATION</th>
+                                    <th colspan="2" style="width: 90%;" class="table-header">H.S.C.</th>
                                 </tr>
                                 <tr>
                                     <th>Degree</th>
@@ -326,10 +316,10 @@
                                     <th>Passing Year</th>
                                     <td>2016</td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <th>Grade</th>
                                     <td>B</td>
-                                </tr>
+                                </tr> -->
                             </table>
                         </div>
                     </div>
@@ -491,12 +481,12 @@
             </div>
             
             <div class="container d-center">
-                <div class="md-12" id="contact_content">
+                <div class="md-12" id="contact_content" style="background: #333;">
                     <div class="upper md-12">
 
                         <div class="mar-md-5">
                             <div class="imgdiv md-5 t-center">
-                                <img src="img/me1.jpg" class="d-center" />
+                                <img src="img/me11.jpg" class="d-center" />
                             </div>
 
                             <div class="imgdiv md-7 t-center">
@@ -540,30 +530,29 @@
                     </div>
                     <hr />
                     <div class="md-12">
-                        <form>
-                            <div id="cdiv" class="d-center">
-                                <h2 style="width: 100%; text-align: center;">Contact Me</h2>
-                                <div class="outerpbar">
+                        <div id="contact_form" class="d-center mar-md-6">
+                            <h2 class="full t-center">Contact Me</h2>
+                            <div class="full">
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
                                     <input class="iput" type="text" placeholder="E-mail" />
                                 </div>
-                                <div class="outerpbar">
-                                    <input class="iput" type="text" placeholder="Subject" />
+                                <div class="form-group">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="iput" placeholder="Write a message" style="height: 250px;" ></textarea>
                                 </div>
-                                <div class="outerpbar">
-                                    <textarea class="iput" placeholder="Write a message" ></textarea>
-                                </div>
-                                <div class="form-btn">
-                                    <input class="btn" type="submit" value="SUBMIT" />
+                                <div class="form-group">
+                                    <input class="btn md-6" type="submit" value="SUBMIT" style="width: 50%;" />
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                     <hr class="double-hr"/>
                 </div>
             </div>
         </div>
         
-        <div id="menu" class="menu">
+        <div id="menu" class="menu" style="display: none;">
             <ul> 
                 <li id="home"> 
                     <a>Home</a>
@@ -583,7 +572,10 @@
                 <span></span>
                 <span></span>
             </div>
-            </div>
+            <!-- <hr class="line-hr"/> -->
+        </div>
+        <!-- <div id="change_theme" theme-name="dark"  style="position: fixed; top: 100px; background: #000; color: #FFF; padding: 5px;"><img src="svg/exchange-alt.svg"style="width: 30px;height: 30px;"/></div> -->
+        <div></div>
         
     </body>
 </html>
